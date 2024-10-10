@@ -39,7 +39,6 @@ namespace Football_Game_Console_Simulator
             new Players("P7", "Defender", 0),
             new Players("P8", "Goalkeeper", 0),
             new Players("P9", "Forward", 0),
-            new Players("P10", "Forward", 0),
             new Players("P11", "Defender", 0),
             new Players("P12", "Defender", 0), 
             new Players("P13", "Midfielder", 0),

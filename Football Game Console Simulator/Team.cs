@@ -40,7 +40,7 @@ namespace Football_Game_Console_Simulator
             Console.WriteLine($"{Name} Players:");
             foreach (var player in Players)
             {
-                Console.WriteLine($"{player.Name} - {player.Position} - Skill: {player.Skill}");
+                Console.WriteLine($"{player.Name} - {player.Position} - (Skill: {player.Skill})");
             }
         }
     }

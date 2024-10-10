@@ -77,7 +77,7 @@ namespace Football_Game_Console_Simulator
             Players attacker = attackingTeam.Players[AttackingIndex];
             Players defender = defendingTeam.Players[DefendingIndex];
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine($"{attacker.Name} Attack ___VS___ {defender.Name} Defense");
+            Console.WriteLine($"{attacker.Name} Attack __VS__ {defender.Name} Defense");
             Console.ForegroundColor = ConsoleColor.DarkCyan;
  
             if (attacker.Skill-10 > defender.Skill)
